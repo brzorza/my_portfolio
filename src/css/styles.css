@@ -1,5 +1,19 @@
+/* Reusable */
+
 .gradient{
     background: linear-gradient(45deg, #67e8ff, #5bffaa);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* NAVBAR */
+
+.navbar-item:hover{
+    background: linear-gradient(45deg, #67e8ff, #5bffaa);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-icon{
+    font-size: 1.25em;
 }
