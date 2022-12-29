@@ -1,9 +1,11 @@
-import './css/main.min.css'
+import './css/main.min.css';
+import './css/styles.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return(
     <div>
-      <p className="text-primary text-center pt-5 h1">This will by my portfolio site...</p>
+      <Navbar />
     </div>
   )
 }
