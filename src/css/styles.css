@@ -1,4 +1,21 @@
+:root {
+    --primary: #25deff;
+    --secondary: #192824;
+    --background: #121212;
+    --green: #1FC11B;
+    --yellow: #FFD913;
+    --orange: #FF9C55;
+    --red: #FF5555;
+  }
+
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*//////////*/
 /* Reusable */
+/*//////////*/
 
 .gradient{
     background: linear-gradient(45deg, #67e8ff, #5bffaa);
@@ -14,6 +31,61 @@
     -webkit-text-fill-color: transparent;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+/*//////////////*/
+/*    NAVBAR    */
+/*//////////////*/
+
+.navbar-brand{
+    text-decoration: none;
+}
+
 .navbar-icon{
     font-size: 1.25em;
+}
+
+/*//////////////*/
+/* LANDING PAGE */
+/*//////////////*/
+
+.landingpage-wrapper{
+    height: 100vh;
+    background-color: #121212;
+    padding-block: max(25vh, 15rem);
+}
+
+.landingpage-div{
+    font-size: clamp(1.5rem, 5vw, 5rem);
+    white-space: nowrap;
+    margin: 0 14%;
+}
+
+.landingpage-card {
+    background-color: var(--background);
+    display: block;
+    max-width: 900px;
+    min-height: 90px;
+    padding: 20px 0 20px 20px;
+    border: 3px solid var(--primary);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+          20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+          30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+          40px -40px 0 -3px var(--background), 40px -40px var(--red);
+}
+
+.landingpage-card-dots{
+    
+}
+
+.landingpage-button-wrapper{
+    margin-top: 150px;
+}
+
+.landingpage-button{
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    border-bottom: 2px solid #67e8ff;
+    text-decoration: none;
 }

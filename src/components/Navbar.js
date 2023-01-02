@@ -1,8 +1,8 @@
 export default function Navbar() {
     return(
-        <nav className="navbar navbar-expand-xl bg-dark text-opacity-100 bg-opacity-75 navbar-dark py-2 fixed-top">
+        <nav className="navbar navbar-expand-xl bg-dark text-opacity-100 bg-opacity-75 navbar-dark fixed-top h5 row px-5">
         <div className="container">
-          <a href="https://www.google.pl/" className="navbar-brand gradient"><b>BRZOZA</b><small>.dev</small></a> 
+          <a href="https://www.google.pl/" className="gradient navbar-brand"><span>BRZOZA</span><small>.dev</small></a> 
 
           <button
             className="navbar-toggler"
