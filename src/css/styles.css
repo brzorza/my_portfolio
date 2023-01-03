@@ -2,10 +2,13 @@
     --primary: #25deff;
     --secondary: #192824;
     --background: #121212;
+    --background2: #181818;
     --green: #1FC11B;
     --yellow: #FFD913;
     --orange: #FF9C55;
     --red: #FF5555;
+    --neon1: #67e8ff;
+    --neon2: #5bffaa;
   }
 
 *{
@@ -22,7 +25,7 @@
 }
 
 .gradient{
-    background: linear-gradient(45deg, #67e8ff, #5bffaa);
+    background: linear-gradient(45deg, var(--neon1), var(--neon2));
     /* background: linear-gradient(45deg, #FF10F0 , #ff1093); */
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -30,14 +33,6 @@
 
 .neon{
     text-shadow: 1px 1px 2px #67e8ff, 0 0 0.1em #67e8ff, 0 0 0.15em #12d4ff;;
-}
-
-/* NAVBAR */
-
-.navbar-item:hover{
-    background: linear-gradient(45deg, #67e8ff, #5bffaa);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /*//////////////*/
@@ -52,19 +47,25 @@
     font-size: 1.25em;
 }
 
+.navbar-item:hover{
+    background: linear-gradient(45deg, var(--neon1), var(--neon2));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*//////////////*/
 /* LANDING PAGE */
 /*//////////////*/
 
 .landingpage-wrapper{
     height: 100vh;
-    background-color: #121212;
+    background-color: var(--background);
     padding-block: max(25vh, 10rem);
 }
 
 .landingpage-div{
     white-space: nowrap;
-    margin: 0 min(15%) 0 min(4%);
+    margin: 0 min(15%) 0 min(7%);
 }
 
 .landingpage-card {
@@ -115,6 +116,6 @@
 
 .landingpage-button{
     font-size: clamp(1.5rem, 5vw, 2rem);
-    border-bottom: 2px solid #67e8ff;
+    border-bottom: 2px solid var(--neon2);
     text-decoration: none;
 }
