@@ -25,7 +25,7 @@ export default function Navbar() {
                 <a href="https://www.google.pl/" className="nav-link link-light navbar-item"><small>CONTACT</small></a>
               </li>
               <li className="nav-item pt-1">
-                <a href="https://www.google.pl/" className="nav-link link-light navbar-item">
+                <a href="https://github.com/brzorza" className="nav-link link-light navbar-item">
                     <ion-icon name="logo-github" class="d-none d-xl-block navbar-icon navbar-item"></ion-icon>
                     <small className="d-block d-xl-none link-light">GIT HUB</small>
                 </a>

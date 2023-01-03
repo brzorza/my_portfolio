@@ -17,10 +17,19 @@
 /* Reusable */
 /*//////////*/
 
+.bold{
+    font-weight: bold;
+}
+
 .gradient{
     background: linear-gradient(45deg, #67e8ff, #5bffaa);
+    /* background: linear-gradient(45deg, #FF10F0 , #ff1093); */
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.neon{
+    text-shadow: 1px 1px 2px #67e8ff, 0 0 0.1em #67e8ff, 0 0 0.15em #12d4ff;;
 }
 
 /* NAVBAR */
@@ -29,10 +38,6 @@
     background: linear-gradient(45deg, #67e8ff, #5bffaa);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.bold{
-    font-weight: bold;
 }
 
 /*//////////////*/
@@ -54,19 +59,19 @@
 .landingpage-wrapper{
     height: 100vh;
     background-color: #121212;
-    padding-block: max(25vh, 15rem);
+    padding-block: max(25vh, 10rem);
 }
 
 .landingpage-div{
-    font-size: clamp(1.5rem, 5vw, 5rem);
     white-space: nowrap;
-    margin: 0 14%;
+    margin: 0 min(15%) 0 min(4%);
 }
 
 .landingpage-card {
     background-color: var(--background);
     display: block;
-    max-width: 900px;
+    min-width: 300px;
+    max-width: 1000px;
     min-height: 90px;
     padding: 20px 0 20px 20px;
     border: 3px solid var(--primary);
@@ -76,16 +81,40 @@
           40px -40px 0 -3px var(--background), 40px -40px var(--red);
 }
 
-.landingpage-card-dots{
-    
+.landingpage-card-dots-wrapper{
+    position: relative;
+}
+
+.landingpage-card-dot-one{
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    border: 6px solid var(--green);
+    border-radius: 50%;
+}
+
+.landingpage-card-dot-two{
+    position: absolute;
+    top: -8px;
+    right: 30px;
+    border: 6px solid var(--yellow);
+    border-radius: 50%;
+}
+
+.landingpage-card-dot-three{
+    position: absolute;
+    top: -8px;
+    right: 50px;
+    border: 6px solid var(--red);
+    border-radius: 50%;
 }
 
 .landingpage-button-wrapper{
-    margin-top: 150px;
+    margin-top: clamp(50px, 10vh ,350px);
 }
 
 .landingpage-button{
-    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    font-size: clamp(1.5rem, 5vw, 2rem);
     border-bottom: 2px solid #67e8ff;
     text-decoration: none;
 }
