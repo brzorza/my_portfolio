@@ -3,10 +3,10 @@ export default function Landingpage() {
         <div className="landingpage-wrapper">
             <div className="landingpage-div text-white">
                 <div className="landingpage-card gradient ">
-                    <div className="landingpage-card-dots-wrapper">
-                        <div className="landingpage-card-dot-one"></div>
-                        <div className="landingpage-card-dot-two"></div>
-                        <div className="landingpage-card-dot-three"></div>
+                    <div className="card-dots-wrapper">
+                        <div className="card-dot-one"></div>
+                        <div className="card-dot-two"></div>
+                        <div className="card-dot-three"></div>
                     </div>
                     <h4 style={{fontSize: "clamp(1.1rem, 3vw, 2rem)"}} className="pt-5 pt-sm-3">Hello and welcome!</h4>
                     <p style={{fontSize: "clamp(1.8rem, 5vw, 5rem)"}} className="py-4 py-sm-4">My name is <span className="neon-blue">Wiktor</span></p>
