@@ -9,7 +9,7 @@ export default function Landingpage() {
                         <div className="landingpage-card-dot-three"></div>
                     </div>
                     <h4 style={{fontSize: "clamp(1.1rem, 3vw, 2rem)"}} className="pt-5 pt-sm-3">Hello and welcome!</h4>
-                    <p style={{fontSize: "clamp(1.8rem, 5vw, 5rem)"}} className="py-4 py-sm-4">My name is <span className="neon">Wiktor</span></p>
+                    <p style={{fontSize: "clamp(1.8rem, 5vw, 5rem)"}} className="py-4 py-sm-4">My name is <span className="neon-blue">Wiktor</span></p>
                     <p style={{fontSize: "clamp(1.4rem, 4vw, 3rem)"}} className="pb-5 pb-sm-0">I am a Web Developer</p>
                 </div>
                 <div className="pt-4 landingpage-button-wrapper text-center text-sm-start">

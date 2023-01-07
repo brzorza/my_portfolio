@@ -9,6 +9,8 @@
     --red: #FF5555;
     --neon1: #67e8ff;
     --neon2: #5bffaa;
+    --pink1: #ff10f0;
+    --pink2: #ff1093;
   }
 
 *{
@@ -24,15 +26,20 @@
     font-weight: bold;
 }
 
+
+
 .gradient{
     background: linear-gradient(45deg, var(--neon1), var(--neon2));
-    /* background: linear-gradient(45deg, #FF10F0 , #ff1093); */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.neon{
+.neon-blue{
     text-shadow: -1px -1px 2px #67e8ff, 0 0 0.07em #67e8ff, 0 0 0.1em #12d4ff;;
+}
+
+.neon-orange{
+    text-shadow: -1px -1px 2px #ffa15e, 0 0 0.07em #ff7c1f, 0 0 0.1em #12d4ff;;
 }
 
 /*//////////////*/
@@ -76,10 +83,11 @@
     min-height: 90px;
     padding: 20px 0 20px 20px;
     border: 3px solid var(--primary);
-    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-          20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-          30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-          40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 
+        10px -10px var(--green),
+        20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+        30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+        40px -40px 0 -3px var(--background), 40px -40px var(--red);
 }
 
 .landingpage-card-dots-wrapper{
@@ -126,4 +134,19 @@
 
 .about-image{
     box-shadow: 0 0 20px var(--orange);
+}
+
+.about-color{
+    color: var(--orange);
+}
+
+.about-text{
+    font-size: clamp(0.7rem, 5vw, 1.2rem);
+}
+
+.about-button{
+    color: #fff;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    border-bottom: 2px solid var(--orange);
+    text-decoration: none;
 }
