@@ -14,7 +14,7 @@ export default function About() {
                     </div>
                     <div className="row col-lg">
                         <h1 className='about-color neon-orange pb-2'>Who am I?</h1>
-                        <div className='about-card' style={{background: "var(--background)"}}>
+                        <div className='about-card mx-2' style={{background: "var(--background)"}}>
                             <div className="card-dots-wrapper pb-3">
                                 <div className="card-dot-one"></div>
                                 <div className="card-dot-two"></div>
@@ -27,8 +27,8 @@ export default function About() {
                                 Later in high school I learned that there is much more fascinating things to do than playing games, thats when I wrote my first webites and programms.<br/>
                                 From this point on I can't see my life without coding.
                             </p>
-                            <div>
-                                <a href='www.google.com' className='about-button text-center pb-1'>Contact me!</a>
+                            <div className='mt-5 m-sm-1'>
+                                <a href='www.google.com' className='about-button text-center p-1'>Contact me!</a>
                             </div>
                         </div>
                     </div>
