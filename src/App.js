@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/js/index.esm';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Landingpage />
       <About />
+      <Projects />
     </div>
   )
 }
