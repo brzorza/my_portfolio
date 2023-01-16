@@ -2,7 +2,7 @@ export default function Landingpage() {
     return(
         <div className="landingpage-wrapper">
             <div className="landingpage-div text-white">
-                <div className="landingpage-card gradient ">
+                <div className="landingpage-card gradient">
                     <div className="card-dots-wrapper">
                         <div className="card-dot-one"></div>
                         <div className="card-dot-two"></div>

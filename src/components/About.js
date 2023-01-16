@@ -4,7 +4,7 @@ export default function About() {
             <div className="container pb-5">
                 <div className="text-center row gap-5">
                     <div className="row col-lg">
-                        <div className='text-center mx-2 px-2 px-lg-5 pt-1 pt-sm-4'>
+                        <div className='d-flex align-items-center'>
                             <img 
                                 src={require('../img/me.png')} 
                                 className='img-fluid about-image'
@@ -12,7 +12,7 @@ export default function About() {
                             />
                         </div>
                     </div>
-                    <div className="row col-lg">
+                    <div className="row col-lg d-flex align-items-center">
                         <h1 className='about-color neon-orange pb-2'>Who am I?</h1>
                         <div className='about-card mx-2' style={{background: "var(--background)"}}>
                             <div className="card-dots-wrapper pb-3">
