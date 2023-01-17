@@ -68,6 +68,14 @@
     text-shadow: -1px -1px 2px #ffa15e, 0 0 0.07em #ff7c1f, 0 0 0.1em #12d4ff;;
 }
 
+.in-bg-dark{
+    background-color: var(--background);
+}
+
+.border-custom{
+    border: linear-gradient(to right, red, purple);
+}
+
 /*//////////////*/
 /*    NAVBAR    */
 /*//////////////*/
@@ -124,7 +132,6 @@
 }
 
 .landingpage-button{
-    background-color: var(--background);
     font-size: clamp(1.5rem, 5vw, 2rem);
     border-bottom: 2px solid var(--neon2);
     text-decoration: none;
@@ -153,6 +160,12 @@
     text-decoration: none;
 }
 
+.about-button:hover{
+    background: linear-gradient(45deg, var(--orange), var(--red));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about-card {
     background-color: var(--background2);
     display: block;
@@ -167,3 +180,20 @@
 /*    PROJECTS CARDS     */
 /*///////////////////////*/
 
+
+
+/*///////////////////////*/
+/*        CONTACT        */
+/*///////////////////////*/
+
+.contact-button{
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    border-bottom: 2px solid var(--neon2);
+    text-decoration: none;
+}
+
+.contact-button:hover{
+    background: linear-gradient(45deg, var(--neon1), var(--neon2));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -13,7 +13,7 @@ export default function Landingpage() {
                     <p style={{fontSize: "clamp(1.4rem, 4vw, 3rem)"}} className="pb-5 pb-sm-0">I am a Web Developer</p>
                 </div>
                 <div className="pt-4 landingpage-button-wrapper text-center text-sm-start">
-                    <a href="https://www.google.pl/" className="landingpage-button text-white p-2">View Projects</a>
+                    <a href="https://www.google.pl/" className="contact-button text-white p-2">View Projects</a>
                 </div>
             </div>
         </div>

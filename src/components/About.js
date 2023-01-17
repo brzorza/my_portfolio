@@ -13,14 +13,14 @@ export default function About() {
                         </div>
                     </div>
                     <div className="row col-lg d-flex align-items-center">
-                        <h1 className='about-color neon-orange pb-2'>Who am I?</h1>
+                        <h1 className='about-color pb-2'>Who am I?</h1>
                         <div className='about-card mx-2' style={{background: "var(--background)"}}>
                             <div className="card-dots-wrapper pb-3">
                                 <div className="card-dot-one"></div>
                                 <div className="card-dot-two"></div>
                                 <div className="card-dot-three"></div>
                             </div>
-                            <p className='about-text text-start mx-3 pb-3'>
+                            <p className='about-text text-start mx-3 py-5'>
                                 My name is Wiktor Brzoza.<br/>
                                 I'm 22 years old guy who loves making web applications.<br/><br/>
                                 My passion for computers started back in my childhood when my uncle showed me his favourite game.<br/>
