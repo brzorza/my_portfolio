@@ -73,7 +73,7 @@ export default function Contact() {
                         />
                     </div>
                     <div className="text-center text-sm-end pt-3">
-                    <a href="https://www.google.pl/" className="contact-button text-white p-2">Send message!</a>
+                    <button className="contact-button text-white p-2">Send message!</button>
                 </div>
                 </form>
             </div>

@@ -4,10 +4,10 @@ export default function About() {
             <div className="container pb-5">
                 <div className="text-center row gap-5">
                     <div className="row col-lg">
-                        <div className='d-flex align-items-center'>
+                        <div className='d-flex align-items-center p-5'>
                             <img 
                                 src={require('../img/me.png')} 
-                                className='img-fluid about-image'
+                                className='img-fluid border-0 rounded-5 about-image'
                                 alt="Wiktor Brzoza"
                             />
                         </div>

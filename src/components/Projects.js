@@ -4,9 +4,7 @@ export default function Projects() {
     return(
         <div className="text-white py-5" style={{background: "var(--background)"}}>
             <div className="container">
-                <div className="row">
-                    <ProjectBoxes />
-                </div>
+                <ProjectBoxes />
             </div>
         </div>
     )

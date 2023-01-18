@@ -72,8 +72,9 @@
     background-color: var(--background);
 }
 
-.border-custom{
-    border: linear-gradient(to right, red, purple);
+.w-card{
+    width: 50%;
+    margin: 0 20px;
 }
 
 /*//////////////*/
@@ -142,7 +143,7 @@
 /*//////////////*/
 
 .about-image{
-    box-shadow: 0 0 20px var(--orange);
+    box-shadow: 0 0 30px var(--orange);
 }
 
 .about-color{
@@ -187,6 +188,8 @@
 /*///////////////////////*/
 
 .contact-button{
+    background-color: transparent;
+    border: transparent;
     font-size: clamp(1.5rem, 5vw, 2rem);
     border-bottom: 2px solid var(--neon2);
     text-decoration: none;
