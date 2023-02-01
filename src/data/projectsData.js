@@ -9,7 +9,7 @@ const projectsData = [
     {
         "id": 2,
         "title": "Coming ASAP...",
-        "desc": "This is going to be recreation of first game that I have made as a WebApp",
+        "desc": "This is going to be recreation of first game as a WebApp that I have made ",
         "tech": "",
         "link": ""
     },

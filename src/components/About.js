@@ -14,7 +14,7 @@ export default function About() {
                     </div>
                     <div className="row col-lg d-flex align-items-center">
                         <h1 className='about-color pb-2'>Who am I?</h1>
-                        <div className='about-card mx-2' style={{background: "var(--background)"}}>
+                        <div className='about-card border border-3 rounded border-warning mx-2' style={{background: "var(--background)"}}>
                             <div className="card-dots-wrapper pb-3">
                                 <div className="card-dot-one"></div>
                                 <div className="card-dot-two"></div>
