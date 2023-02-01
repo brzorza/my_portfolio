@@ -2,47 +2,64 @@ const projectsData = [
     {
         "id": 1,
         "title": "This portfolio",
-        "desc": "Description 1",
+        "desc": "Here you can see the source code for this very website.",
+        "tech": "ReactJS, Bootstrap",
         "link": "https://github.com/brzorza/my_portfolio"
     },
     {
         "id": 2,
-        "title": "Title 2",
-        "desc": "Description 2",
-        "bg": "red"
+        "title": "Coming ASAP...",
+        "desc": "This is going to be recreation of first game that I have made as a WebApp",
+        "tech": "",
+        "link": ""
     },
     {
         "id": 3,
-        "title": "Title 3",
-        "desc": "Description 3",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        "title": "Coming soon...",
+        "desc": ":)",
+        "tech": "",
+        "link": ""
     },
     {
         "id": 4,
-        "title": "Title 4",
-        "desc": "Description 4",
-        "bg": "red"
+        "title": "Coming bit later...",
+        "desc": "Don't worry",
+        "tech": "",
+        "link": ""
     },
     {
         "id": 5,
-        "title": "Title 5",
-        "desc": "Description 5"
+        "title": "It will appear eventualy",
+        "desc": "I hope :D",
+        "tech": "",
+        "link": ""
     },
-    {
-        "id": 6,
-        "title": "Title 6",
-        "desc": "Description 6"
-    },
-    {
-        "id": 7,
-        "title": "Title 7",
-        "desc": "Description 7"
-    },
-    {
-        "id": 8,
-        "title": "Title 8",
-        "desc": "Description 8"
-    },
+    // {
+    //     "id": 6,
+    //     "title": "Title 6",
+    //     "desc": "Description 6",
+    //     "link": ""
+    // },
+    // {
+    //     "id": 7,
+    //     "title": "Title 7",
+    //     "desc": "Description 7",
+    //     "link": ""
+    // },
+    // {
+    //     "id": 8,
+    //     "title": "Title 8",
+    //     "desc": "Description 8",
+    //     "tech": "",
+    //     "link": ""
+    // },
+    // {
+    //     "id": 9,
+    //     "title": "Title 9",
+    //     "desc": "Description 9",
+    //     "tech": "",
+    //     "link": ""
+    // },
 ]
     
 export default projectsData;

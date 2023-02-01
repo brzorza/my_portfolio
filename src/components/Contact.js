@@ -26,7 +26,7 @@ export default function Contact() {
         <div className="text-white py-5" style={{background: "var(--background2)"}}>
             <div className='container text-center text-sm-start pb-5 w-50'>
                 <h1 className='text-secondary'>Contact me</h1>
-                <p className='about-text'>If you have any questions, feel free to ask me.&nbsp;&nbsp;&nbsp;I will be more than happy to answer!</p>
+                <p className='about-text'>If you have any questions, feel free to ask me.<br/> I will be more than happy to answer!</p>
             </div>
             <div className='container text-white w-50'>
                 <form >
